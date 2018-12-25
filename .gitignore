@@ -6,3 +6,4 @@ notes.md
 .env
 .eslintrc.js
 .prettierrc
+secret.js
