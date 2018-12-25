@@ -507,10 +507,11 @@ ul.order li span.count span {
   overflow: hidden;
 }
 .menu-fish p {
-  margin: 0;
-  font-size: 1.8rem;
+  margin: 10px;
+  font-size: 1.4rem;
 }
 .menu-fish .fish-name {
+  font-size: 100%;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
