@@ -7,3 +7,7 @@ notes.md
 .eslintrc.js
 .prettierrc
 secret.js
+/build
+/build_*
+_redirects
+.netlify
