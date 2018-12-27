@@ -113,6 +113,7 @@ class App extends Component {
           fishes={this.state.fishes}
           removeFish={this.removeFish}
           updateFish={this.updateFish}
+          storeId={this.props.match.params.storeId}
         />
       </div>
     );
