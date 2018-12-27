@@ -194,14 +194,17 @@ ul.order
   margin-bottom 5px
   clear both
   overflow hidden
+  position relative
   p
     margin 0
-    font-size 1.8rem
+    font-size 1.5rem
   .fish-name
     margin 0
     display flex
     justify-content space-between
     align-items center
+    font-size 2.3rem
+    margin-bottom 10px
   .price
     font-size 1.4rem
     // color orange
@@ -211,6 +214,11 @@ ul.order
     float left
     width 150px
     margin-right 1rem
+    transition all .2s
+    box-shadow 2px 2px 0px rgba(0, 0, 0, 1)
+  button
+    margin-top 20px
+
 
 button, input[type=submit]
   text-transform uppercase
@@ -222,11 +230,16 @@ button, input[type=submit]
   transition all 0.2s
   position relative
   z-index 2
+  padding 4px 20px
+  box-shadow 2px 2px 0 rgba(0, 0, 0, 1)
   &[disabled]
     color red
     background white
     border-color red
-    transform rotate(-10deg) scale(2) translateX(50%) translateY(-50%)
+    position: absolute
+    left 60%
+    top 25%
+    transform rotate(-10deg) scale(2) translateX(-50%) translateY(-50%)
     &:hover
       color red
       cursor not-allowed
